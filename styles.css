@@ -1,0 +1,68 @@
+h1{
+    font-size: 50px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.name-highlight{
+    color: orange;
+}
+.link-button{
+    background-image: linear-gradient(180deg, salmon, tomato);
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.divProperties{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.divProperties img{
+    width: 100%;
+}
+.topBanner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    margin-bottom: 200px;
+}
+h2{
+    font-size: 40px;
+}
+.midBanner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.boxStyle{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 70%;
+    background-color:white;
+}
+#fullStackBorder{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, salmon, tomato);
+    border-image-slice: 1;
+}
+#babyDevBorder{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.exBanner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+footer{
+    text-align: center;
+}
